@@ -1,0 +1,12 @@
+torch
+transformers
+streamlit
+pretty_midi
+mido
+librosa
+numpy
+pandas
+matplotlib
+seaborn
+Pillow
+tqdm
