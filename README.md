@@ -34,16 +34,17 @@ python -m scripts.train
 
  🎶 Generate via CLI
 python -m scripts.generate
+
 This will create a file: generated_output.mid
 
 ---
 ## 🎨 Example Workflow
 1. Inlialize the model by clicking on Initial model 
-- (Optional)to re-train the model:
-  *Enter the file path of the dataset
-  *Start Training
-  *This will re-train the model and saves the model into music_generator_model.pt
-  *You can now load this model by clicking on Load pre-trained model
+2. (Optional)to re-train the model:
+-Enter the file path of the dataset
+-Start Training
+-This will re-train the model and saves the model into music_generator_model.pt
+-You can now load this model by clicking on Load pre-trained model
 3. Load the pre-trained model
 4. Upload an image for style inspiration or Enter lyrics or descriptive text.
 5. Adjust valence/arousal sliders (calm ↔ energetic, sad ↔ joyful).
